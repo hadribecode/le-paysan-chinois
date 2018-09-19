@@ -1,0 +1,129 @@
+html{
+    margin: 0;
+    padding: 0;
+    }
+
+.bien {
+        text-transform: capitalize;
+        color: green;
+    }
+.mal {
+        text-transform: capitalize;
+        color: red;
+    }
+
+header
+    {
+    background-color:  yellow;
+    }
+
+blockquote{
+    width: 50%;
+	margin: 0% 25%;
+	padding: 80px 30px;
+	display: inline-block;
+	font-size: 160%;
+	background-color:gray;
+	border-left: 3px solid firebrick;
+    font-family: 'Kavivanar';
+
+}
+
+body {
+    max-width: 90%;
+	margin: 0 auto;
+	background-color: blue;
+    background-image:url(image_test.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+h1 {
+    font-size: 200%; 
+    color:blue;
+    text-align: center;
+    }
+
+.interlignage
+    { 
+    line-height:14px; 
+    }
+q  
+    {
+    padding-left: 80px;
+    font-style: italic;
+    font-size: 25px;
+    }
+
+  li{
+    font-size: 25px;
+    color: blue;
+    }
+
+p{
+    font-size: 25px;
+    line-height: 1.5;
+    font-style: normal;
+    color: blue;
+    }
+a:link {
+    color: blue;
+    text-decoration: underline;
+    }
+
+a:visited 
+    {
+    color: green;
+    }
+table
+    {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+td, tr
+    {
+    font-size: 18px;
+    color:white ;
+    }
+.linea1 {
+	background-color: grey;
+}
+.linea2 {
+         background-color: DarkSlateGrey;
+}
+th {
+    color: blue;
+	background-color: DarkTurquoise;
+}
+#pucea{
+        background-image: url("bien.png");
+	    padding-right: 2px;
+	    background-repeat: no-repeat;
+	    background-position: 26%;
+	    background-size: 19px;
+
+}
+#puceb{
+    background-image: url("mal.png");
+    padding-right: 2px;
+    background-repeat: no-repeat;
+    background-position: 27%;
+    background-size: 19px;
+
+}
+#chat{
+    background-image: url("chat.png");
+    padding-right: 2px;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 19px;
+}
+
+img {
+	float: left;
+	padding:10px;
+}
